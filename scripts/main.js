@@ -16,7 +16,16 @@ $(document).ready(function() {
 		 //send command to GRIM to pick up all cubes		 
 	 });//end all
 	 
- 
+	/*  var new_text = "test";
+	 $('h1').on('click', function(){
+		   $(this).toggleClass("old_text");
+		   if ($(this).attr("class") == "old_text") {
+			   $(this).html(new_text);
+		   } else {
+			   $(this).html($(this).attr("id"));
+		   }
+		
+	 }); */
 		
 }); // end ready
 
